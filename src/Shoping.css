@@ -1,0 +1,15 @@
+.container1{
+
+    border:solid 2px gray;
+}
+
+.container1 h1{
+    padding-top:0px;
+}
+
+#total{
+    float:right;
+}
+.container1 button{
+    border-radius: 5px;
+}

@@ -1,0 +1,17 @@
+.nav-link{
+    border: 3px solid #ece6e6;
+}
+.nav-link ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #e0e6eb;
+}
+
+
+.nav-link li {
+    float: left;
+    padding-top:20x;
+    padding-left:20px;
+  }  
