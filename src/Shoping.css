@@ -1,6 +1,6 @@
 .container1{
 
-    border:solid 2px gray;
+    border:2px solid gray;
 }
 
 .container1 h1{
@@ -12,4 +12,22 @@
 }
 .container1 button{
     border-radius: 5px;
+}
+table,tr,td{
+   
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+button:hover{
+    background-color: #9b43439c
+}
+.container1 tr:hover {
+    background-color: rgb(228, 239, 240);
+  }
+
+.amount{
+    float:right;   
 }

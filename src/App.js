@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import About from './About';
 import Navbar from './Navbar';
 import Shoping from './Shoping';
@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <nav>
           <Navbar/>
-          <Route path='/' exact component={Home}/>
+          <Route path='/Home' exact component={Home}/>
           <Route path='/Login' exact component={Login}/>
           <Route path='/Shoping' exact component={Shoping}/>
           <Route path='/About' exact component={About}/>
